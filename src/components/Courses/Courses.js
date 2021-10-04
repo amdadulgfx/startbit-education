@@ -5,6 +5,7 @@ import DisplayCoursesInPage from '../DisplayCoursesInPage/DisplayCoursesInPage';
 
 const Courses = () => {
     const [courses, setCourse] = useState([]);
+    //fetching course information
     useEffect(() => {
         fetch('./fakeData.json')
             .then(res => res.json())
@@ -12,6 +13,7 @@ const Courses = () => {
     }, [])
     return (
         <div className='container my-5'>
+            {/* all course details in bootstrap row col */}
             <h1 className='text-center text-white mb-3'>ALL OF OUR COURSES AT A GLANCE</h1>
             <Row xs={1} md={2} lg={4} className="g-4">
                 {

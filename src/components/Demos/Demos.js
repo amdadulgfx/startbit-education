@@ -5,6 +5,7 @@ const Demos = () => {
         <div className='container m-5 mx-auto text-white text-center'>
             <h1>HERE ARE SOME DEMO CLASSES </h1>
             <h1>YOU CAN CHECK IT OUT</h1>
+            {/* demo videos in iframe from youtube */}
             <Row xs={1} md={2} lg={3} className="g-4">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/QJtuhoOfGp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

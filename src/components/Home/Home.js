@@ -14,6 +14,7 @@ const Home = () => {
     }, [])
     return (
         <div>
+            {/* course attraction in carousel */}
             <Carousel >
                 <Carousel.Item interval={1000}>
                     <img
@@ -47,6 +48,7 @@ const Home = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
+            {/* top courses here */}
             <div className='container my-5'>
                 <h1 className='text-center text-white mb-3'>TOP COURSES</h1>
                 <Row xs={1} md={2} lg={4} className="g-4">

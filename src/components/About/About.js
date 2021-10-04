@@ -4,7 +4,9 @@ import { Row } from 'react-bootstrap';
 import Mentors from '../Mentors/Mentors';
 
 const About = () => {
+
     const [mentors, setMentors] = useState([]);
+    //fetching mentors data
     useEffect(() => {
         fetch('./fakeDataMentor.json')
             .then(res => res.json())
@@ -16,7 +18,7 @@ const About = () => {
 
             <h2 className='text-center text-white my-3'>We Are Making Free Courses For 3 Years And We Have Launched Our Premium Courses Recently</h2>
             <h2 className='text-center text-white '>Our Valuable Mentors</h2>
-
+            {/* mentors details */}
             <div>
                 <Row xs={1} md={2} lg={4} className="g-4 my-3">
                     {

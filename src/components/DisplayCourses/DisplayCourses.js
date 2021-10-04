@@ -11,6 +11,7 @@ const DisplayCourses = (props) => {
         props.course.id < 5 &&
         (<div >
             <Col>
+                {/* all cards  */}
                 <Card className='shadow-lg'>
                     <Card.Img variant="top" src={img} className='img-fit' />
                     <Card.Body>
@@ -19,13 +20,13 @@ const DisplayCourses = (props) => {
                             <p>
                                 <b>Price:</b> ${price}
                             </p>
+                            {/* rating sytem added here */}
                             <Rating
                                 initialRating={rating}
                                 readonly
                                 emptySymbol="far fa-star rating-color "
                                 fullSymbol="fas fa-star rating-color "
                             />
-
                             <br />
                             <Button className='mt-2' variant='primary'> <FontAwesomeIcon icon={faCartPlus} /> Enroll Now</Button>
                         </Card.Text>

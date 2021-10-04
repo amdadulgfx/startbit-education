@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
+        // this is nav bar
         <nav className='sticky-top'>
 
             <Navbar bg='primary' expand="lg" sticky="top" variant="dark">

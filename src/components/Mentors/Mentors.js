@@ -6,6 +6,7 @@ const Mentors = (props) => {
     const { name, image, teaches } = props.mentor;
     return (
         <Col>
+            {/* mentor information */}
             <Card className='shadow-lg'>
                 <Card.Img variant="top" src={image} className='img-mentor mx-auto' />
                 <Card.Body>

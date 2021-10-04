@@ -8,6 +8,7 @@ const DisplayCoursesInPage = (props) => {
     return (
         <div>
             <Col>
+                {/* all cards here */}
                 <Card className='shadow-lg'>
                     <Card.Img variant="top" src={img} className='img-fit' />
                     <Card.Body>
@@ -16,13 +17,13 @@ const DisplayCoursesInPage = (props) => {
                             <p>
                                 <b>Price:</b> ${price}
                             </p>
+                            {/* rating system added */}
                             <Rating
                                 initialRating={rating}
                                 readonly
                                 emptySymbol="far fa-star rating-color "
                                 fullSymbol="fas fa-star rating-color "
                             />
-
                             <br />
                             <Button className='mt-2' variant='primary'> <FontAwesomeIcon icon={faCartPlus} /> Enroll Now</Button>
                         </Card.Text>

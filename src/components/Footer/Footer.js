@@ -7,8 +7,7 @@ import './Footer.css'
 const Footer = () => {
     return (
         <footer className='sticky-bottom'>
-
-
+            {/* this is footer section */}
             <div className='text-center text-white footer-bg p-3'>
                 <div>
                     <h3>StartBit</h3>
