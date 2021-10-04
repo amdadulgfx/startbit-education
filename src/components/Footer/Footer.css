@@ -1,0 +1,13 @@
+.social-icon{
+    border-radius: 3px;
+    border: 1px solid white;
+    margin: 5px;
+    margin-bottom: 10px;
+    padding: 3px;
+    font-size: 40px;
+    cursor: pointer;
+}
+.social-icon:hover{
+    background-color: white;
+    color: #212529;
+}
