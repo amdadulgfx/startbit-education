@@ -4,8 +4,9 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <nav>
-            <Navbar bg="dark" expand="lg" sticky="top" variant="dark">
+        <nav className='sticky-top'>
+
+            <Navbar bg='primary' expand="lg" sticky="top" variant="dark">
                 <Container fluid>
                     <Navbar.Brand href="#">StartBit</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
@@ -16,7 +17,7 @@ const Header = () => {
                             navbarScroll
                         >
                             <NavLink to="/home" className='fw-bold text-decoration-none text-white pe-2'>HOME</NavLink>
-                            <NavLink to="/services" className='fw-bold text-decoration-none text-white pe-2' >SERVICES</NavLink>
+                            <NavLink to="/courses" className='fw-bold text-decoration-none text-white pe-2' >COURSES</NavLink>
                             <NavLink to="/about" className='fw-bold text-decoration-none text-white pe-2' >ABOUT</NavLink>
                             <NavLink to="/demos" className='fw-bold text-decoration-none text-white pe-2' >DEMOS</NavLink>
                         </Nav>
@@ -27,7 +28,7 @@ const Header = () => {
                                 className="me-2"
                                 aria-label="Search"
                             />
-                            <Button variant="secondary" >Search</Button>
+                            <Button variant="outline-light" >Search</Button>
                         </Form>
                     </Navbar.Collapse>
                 </Container>

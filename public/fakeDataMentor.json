@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Niamul Hasan",
+        "image": "https://i.ibb.co/7CZtcTx/niamul.jpg",
+        "teaches": "Python, Javascript, OOP, Android Apps Development"
+    },
+    {
+        "name": "Abdul Hai Zibon",
+        "image": "https://i.ibb.co/z507yRp/jibon.jpg",
+        "teaches": "Python, Machine Learning, Data Science"
+    },
+    {
+        "name": "Monzur Elahi Shadhin",
+        "image": "https://i.ibb.co/pQgLWcM/shadhin.jpg",
+        "teaches": "C, Javascript, PHP, IOT"
+    },
+    {
+        "name": "Amdadul Haq Arif",
+        "image": "https://i.ibb.co/Lhgb0yy/arif.jpg",
+        "teaches": "HTML, CSS, Photography, Time Management, Javascript"
+    }
+]

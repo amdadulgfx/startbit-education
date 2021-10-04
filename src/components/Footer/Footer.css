@@ -1,3 +1,7 @@
+
+.footer-bg{
+    background-color: #0a55c5;
+}
 .social-icon{
     border-radius: 3px;
     border: 1px solid white;
@@ -9,5 +13,5 @@
 }
 .social-icon:hover{
     background-color: white;
-    color: #212529;
+    color: #011C3B;
 }
