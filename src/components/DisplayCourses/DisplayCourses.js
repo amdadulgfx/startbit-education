@@ -27,7 +27,7 @@ const DisplayCourses = (props) => {
                             />
 
                             <br />
-                            <Button className='mt-2' variant='primary'> <FontAwesomeIcon icon={faCartPlus} /> Purchase</Button>
+                            <Button className='mt-2' variant='primary'> <FontAwesomeIcon icon={faCartPlus} /> Enroll Now</Button>
                         </Card.Text>
                     </Card.Body>
                 </Card>
